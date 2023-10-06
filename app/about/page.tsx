@@ -1,4 +1,4 @@
-export default function About() {
+export default function Page() {
     return (
       <main className="">
         <div>Hello world From about page</div>
