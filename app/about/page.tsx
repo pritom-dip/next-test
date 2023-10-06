@@ -1,8 +1,11 @@
+import Link from "next/link"
+
 export default function Page() {
     return (
-      <main className="">
+      <>
+        <Link href="/">Link to the Home page</Link>
         <div>Hello world From about page</div>
-      </main>
+      </>
     )
   }
   
